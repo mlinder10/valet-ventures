@@ -22,9 +22,9 @@ export default function Home() {
         <article>
           <h2>Special Events</h2>
           <p>
-            Don't make your guests walk a mile to your party... hire us. We make
-            sure all the ladies can wear their fanciest shoes... even their red
-            bottom Christian Louboutins.
+            Don&apos;t make your guests walk a mile to your party... hire us. We
+            make sure all the ladies can wear their fanciest shoes... even their
+            red bottom Christian Louboutins.
           </p>
           <Link href="/">Contact Us</Link>
         </article>
