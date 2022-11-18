@@ -38,22 +38,22 @@ export default function About() {
         <article>
           <h3 className={styles.heading}>Clientele</h3>
           <p className={styles.body}>
-            In 2011, Carlie started Valet Ventures with Terra and Mr Friendly's…
-            and now she has worked with over thirteen different restaurants
-            around the area. If you want to know where to eat… just ask her. She
-            has been delivering reliable and quality service to areas finest
-            dining locations for over a decade.
+            In 2011, Carlie started Valet Ventures with Terra and Mr
+            Friendly&apos;s… and now she has worked with over thirteen different
+            restaurants around the area. If you want to know where to eat… just
+            ask her. She has been delivering reliable and quality service to
+            areas finest dining locations for over a decade.
           </p>
         </article>
         <article>
           <h3 className={styles.heading}>Our Brand</h3>
           <p className={styles.body}>
-            Carlie chose the name Valet Ventures because of… alliteration. It's
-            cute and catchy. And she's kind of a nerd. Valet Ventures has won
-            awards for girliest valet and most likely to knock off a Peter Milar
-            polo. Valet Ventures currently provides valet services for Mr.
-            Friendly's, Terra, Hendrix, Backstreets, Il Giorgione, The Woody,
-            Saluda's, Smoked, and Ambrosia.
+            Carlie chose the name Valet Ventures because of… alliteration.
+            It&apos;s cute and catchy. And she&apos;s kind of a nerd. Valet
+            Ventures has won awards for girliest valet and most likely to knock
+            off a Peter Milar polo. Valet Ventures currently provides valet
+            services for Mr. Friendly&apos;s, Terra, Hendrix, Backstreets, Il
+            Giorgione, The Woody, Saluda&apos;s, Smoked, and Ambrosia.
           </p>
         </article>
         <div className={styles["img-wrapper"]}>

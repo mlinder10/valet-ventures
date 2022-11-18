@@ -13,14 +13,14 @@ export default function Footer() {
         <div>
           <p className={styles.heading}>Contact</p>
           <div className={styles.contact}>
-            <a href="">(803) 402 - 5782</a>
-            <Link href="/">Send us an Email</Link>
+            <a href="tel:8034025782">(803) 402 - 5782</a>
+            <Link href="/contact">Send us an Email</Link>
           </div>
         </div>
         <div>
           <p className={styles.heading}>Follow Us</p>
           <div className={styles.icons}>
-            <a href="/">
+            <a href="https://www.facebook.com/valet.ventures/">
               <div className={styles["icon-wrapper"]}>
                 <Image
                   src="/images/icons/facebook.png"
@@ -29,7 +29,7 @@ export default function Footer() {
                 />
               </div>
             </a>
-            <a href="/">
+            <a href="https://www.instagram.com/valet_ventures/?hl=en">
               <div className={styles["icon-wrapper"]}>
                 <Image
                   src="/images/icons/insta.png"
