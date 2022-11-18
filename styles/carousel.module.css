@@ -1,0 +1,48 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: calc(100vw / 2);
+}
+
+.img {
+  position: absolute;
+  z-index: 1;
+  animation: rotate 12s linear infinite;
+}
+
+.two,
+.three {
+  opacity: 0;
+}
+
+.two {
+  animation-delay: 4s;
+}
+
+.three {
+  animation-delay: 8s;
+}
+
+@keyframes rotate {
+  0% {
+    opacity: 0;
+  }
+
+  6%,
+  27% {
+    translate: 0;
+    scale: 1;
+    opacity: 1;
+  }
+
+  33%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    margin-top: 128px;
+  }
+}
