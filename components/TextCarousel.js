@@ -6,12 +6,16 @@ export default function TextCarousel() {
     <div className={styles.wrapper}>
       <ul>
         <li className={styles.left}>
-          <a target="_blank" rel="null" href="https://www.columbiamuseum.org/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.columbiamuseum.org/"
+          >
             Columbia Art Museum
           </a>
         </li>
         <li className={styles.right}>
-          <a target="_blank" rel="null" href="https://sc.edu/">
+          <a target="_blank" rel="noreferrer" href="https://sc.edu/">
             University of South Carolina
           </a>
         </li>
