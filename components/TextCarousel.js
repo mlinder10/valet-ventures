@@ -18,39 +18,47 @@ export default function TextCarousel() {
         <li className={styles.left}>
           <a
             target="_blank"
-            rel="null"
+            rel="noreferrer"
             href="https://www.dickdyermercedes.com/"
           >
             Dick Dyer Mercedes
           </a>
         </li>
         <li className={styles.right}>
-          <a target="_blank" rel="null" href="https://701whaley.com/">
+          <a target="_blank" rel="noreferrer" href="https://701whaley.com/">
             701 Whaley
           </a>
         </li>
         <li className={styles.left}>
-          <a target="_blank" rel="null" href="https://www.f2tproductions.com/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.f2tproductions.com/"
+          >
             Farm2Table
           </a>
         </li>
         <li className={styles.right}>
-          <a target="_blank" rel="null" href="https://segrapark.com/">
+          <a target="_blank" rel="noreferrer" href="https://segrapark.com/">
             Segra Park
           </a>
         </li>
         <li className={styles.left}>
-          <a target="_blank" rel="null" href="https://www.scwren.org/">
+          <a target="_blank" rel="noreferrer" href="https://www.scwren.org/">
             Wren
           </a>
         </li>
         <li className={styles.right}>
-          <a target="_blank" rel="null" href="https://www.scwren.org/">
+          <a target="_blank" rel="noreferrer" href="https://www.scwren.org/">
             Jim Hudson Automodive
           </a>
         </li>
         <li className={styles.left}>
-          <a target="_blank" rel="null" href="https://www.flockandrally.com/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.flockandrally.com/"
+          >
             Flock and Rally
           </a>
         </li>
