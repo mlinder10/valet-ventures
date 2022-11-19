@@ -16,7 +16,7 @@ export default function Home() {
             We are valet wizards. We turn your parking problems into parking
             solutions.
           </p>
-          <Link href="/">Our Clientele</Link>
+          <Link href="/services">Our Clientele</Link>
         </article>
         <div className="divider" />
         <article>
@@ -26,7 +26,7 @@ export default function Home() {
             make sure all the ladies can wear their fanciest shoes... even their
             red bottom Christian Louboutins.
           </p>
-          <Link href="/">Contact Us</Link>
+          <Link href="/contact">Contact Us</Link>
         </article>
       </section>
     </div>

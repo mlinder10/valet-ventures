@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "/styles/about.module.css";
 import Image from "next/image";
-import Zoom from "../components/Zoom";
 
 export default function About() {
   return (
@@ -62,25 +61,6 @@ export default function About() {
             fill={true}
             alt="Sign Dark"
           />
-        </div>
-      </section>
-      <section style={{ paddingBottom: "0" }}>
-        <h3 className={styles["img-header"]}>
-          Currently Serving <span>|</span> Affiliated With
-        </h3>
-        <div className={styles["zoom-wrapper"]}>
-          <Zoom />
-          <ul>
-            <li>Columbia Art Museum</li>
-            <li>University of South Carolina</li>
-            <li>Dick Dyer Mercades</li>
-            <li>701 Whaley</li>
-            <li>Farm2Table</li>
-            <li>Segra Park</li>
-            <li>Wren</li>
-            <li>Jim Hudson Automodive</li>
-            <li>Flock and Rally</li>
-          </ul>
         </div>
       </section>
     </div>
