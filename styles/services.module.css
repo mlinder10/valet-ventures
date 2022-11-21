@@ -18,8 +18,16 @@
   margin-top: 80px;
 }
 
+.text-header {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 64px;
+}
+
 @media (width < 1000px) {
-  .img-header {
+  .img-header,
+  .text-header {
     font-size: 24px;
     width: 250px;
     margin-inline: auto;

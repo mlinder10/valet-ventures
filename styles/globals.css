@@ -36,5 +36,15 @@ main {
   width: 60vw;
   margin-inline: auto;
   height: 1px;
-  background-color: #eee;
+  background-color: #eee5;
+}
+
+.margin {
+  margin-top: 48px;
+}
+
+@media (width < 600px) {
+  .margin {
+    margin-top: 32px;
+  }
 }

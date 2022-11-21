@@ -2,7 +2,32 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 48px;
+  margin-top: 16px;
 }
+
+.wrapper ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  padding: 48px;
+  font-size: 20px;
+  line-height: 36px;
+  color: #eeed;
+}
+
+@media (width <= 500px) {
+  .wrapper ul {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 16px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+/*
 
 .wrapper ul {
   margin-block: 64px;
@@ -77,4 +102,4 @@
   .wrapper li {
     font-size: 12px;
   }
-}
+} */
