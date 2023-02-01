@@ -17,7 +17,7 @@ export default function Layout({ children }) {
           content="Professional and Preppy Valet Service for the Columbia, SC area"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="../public/favicon.ico" />
       </Head>
       <Header />
       <main>{children}</main>
